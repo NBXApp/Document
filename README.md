@@ -2,7 +2,9 @@
 个人资料收集用
 
 
-* [Picasso](https://github.com/square/picasso)
+## Android 界面相关
+
+* [Picasso](https://github.com/square/picasso) 如果只推荐一个优秀的库，那一定是picasso.
 * [fastjson](https://github.com/alibaba/fastjson)
 * [Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)
 * [SwipyRefreshLayout](https://github.com/OrangeGangsters/SwipyRefreshLayout)
@@ -10,8 +12,14 @@
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * [Android ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
 
+## Android 系统相关
+* [otto](https://github.com/square/otto)
+* [EventBus](https://github.com/greenrobot/EventBus)
+* [DiskLruCache](https://github.com/JakeWharton/DiskLruCache)
 
 
+## Android 工具
+* [Apktool](https://github.com/iBotPeaches/Apktool)
 
 
 # License
