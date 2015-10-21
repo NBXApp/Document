@@ -11,6 +11,11 @@
 * [SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * [Android ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)
+* [ViewPagerIndicator](https://github.com/JakeWharton/ViewPagerIndicator)
+* [okhttp](http://square.github.io/okhttp/)
+
+
 
 ## Android 系统相关
 * [otto](https://github.com/square/otto)
@@ -20,6 +25,11 @@
 
 ## Android 工具
 * [Apktool](https://github.com/iBotPeaches/Apktool)
+
+## Android 应用
+
+* [superCleanMaster](https://github.com/joyoyao/superCleanMaster)
+
 
 
 # License
