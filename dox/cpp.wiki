@@ -4,9 +4,7 @@
 
 = 说明 =
 
-本页面汇总俺收集的各种 C 和 C++ 的开源代码库，不定期更新。
-
-如果你发现本页面的开源库有错漏之处，非常欢迎给俺提供反馈——有 GitHub 帐号的同学，可以[https://github.com/programthink/opensource/issues 给俺发 issue]；没帐号的同学，可以去[http://program-think.blogspot.com/ 俺博客]留言。
+本页面汇总各种 C 和 C++ 的开源代码库，不定期更新。
 
 ----
 
@@ -16,8 +14,6 @@
 
 Home：[http://boost.org/]
 
-Wikipedia：[https://en.wikipedia.org/wiki/Boost_%28C%2B%2B_libraries%29 英文]、[https://zh.wikipedia.org/wiki/Boost_C%2B%2B_Libraries 中文]
-
 Boost 大概是最重要的第三方 C++ 库。其作者有很多是 C++ 标准委员会的成员。Boost 的很多子库后来都成为 C++ 的标准库。
 
 本页面的其它章节还会继续提及 Boost 在各种领域的应用。
@@ -25,8 +21,6 @@ Boost 大概是最重要的第三方 C++ 库。其作者有很多是 C++ 标准�
 <h4>wxWidgets</h4>
 
 Home：[https://wxwidgets.org/]
-
-Wikipedia：[https://en.wikipedia.org/wiki/WxWidgets 英文]、[https://zh.wikipedia.org/wiki/WxWidgets 中文]
 
 这是一个非常老牌的 C++ 开源 GUI 框架，诞生于1992年。原先叫做 wxWindows，后来因为微软的法律纠纷，改为现名。
 
@@ -40,7 +34,6 @@ Wikipedia：[https://en.wikipedia.org/wiki/WxWidgets 英文]、[https://zh.wikip
 
 Home：[http://www.qt-project.org/]
 
-Wikipedia：[https://en.wikipedia.org/wiki/Qt_(toolkit) 英文]、[https://zh.wikipedia.org/wiki/Qt 中文]
 
 这是一个非常老牌的 C++ 开源 GUI 框架，于1995年发布 1.0 版本。原先由 Trolltech 公司维护，后来该公司被 Nokia 收购。
 
@@ -52,8 +45,6 @@ Wikipedia：[https://en.wikipedia.org/wiki/Qt_(toolkit) 英文]、[https://zh.wi
 
 Home：[https://apr.apache.org/]
 
-Wikipedia：[https://en.wikipedia.org/wiki/Apache_Portable_Runtime 英文]、[https://zh.wikipedia.org/wiki/Apache%E5%8F%AF%E7%A7%BB%E6%A4%8D%E8%BF%90%E8%A1%8C%E6%97%B6 中文]
-
 这是由 Apache 社区维护的 C 开源库，主要提供操作系统相关的功能（文件系统、进程、线程、用户、IPC）。此外还提供了一些网络相关的功能。
 
 APR 原先是 Apache Web 服务器的一个组成部分，后来独立出来，成为一个单独的开源项目。
@@ -62,25 +53,19 @@ APR 原先是 Apache Web 服务器的一个组成部分，后来独立出来，�
 
 Home：[http://www.cse.wustl.edu/~schmidt/ACE.html]
 
-Wikipedia：[https://en.wikipedia.org/wiki/Adaptive_Communication_Environment 英文]、[https://zh.wikipedia.org/wiki/ACE%E8%87%AA%E9%80%82%E9%85%8D%E9%80%9A%E4%BF%A1%E7%8E%AF%E5%A2%83 中文]
-
 这是一个跨平台的 C++ 库，提供了一套网络通讯的框架；另外还支持线程、进程和 IPC。
 
 <h4>POCO</h4>
 
 Home：[http://pocoproject.org/]
 
-Wikipedia：[https://en.wikipedia.org/wiki/POCO_C%2B%2B_Libraries 英文]
-
-它的名称源自“POrtable COmponents”，是一个基于 C++ 的开源库。
+它的名称源自“POrtable COmponents”，是一个基于 C++ 的开源库。(老子记得这孙子原来不开源的，现在老子不用这个库了，丫的开源了！)
 
 它的功能以网络通讯为主，同时也提供一些其它功能（比如：多线程、进程间通讯、数据库、XML、JSON......）
 
 <h4>Dlib</h4>
 
 Home：[http://dlib.net/]
-
-Wikipedia：[https://en.wikipedia.org/wiki/Dlib 英文]
 
 诞生于2002年的 C++ 开源库，提供了非常多的功能（网络、多线程、GUI、数值计算、图像处理、数据挖掘......）。
 
@@ -89,8 +74,6 @@ Wikipedia：[https://en.wikipedia.org/wiki/Dlib 英文]
 <h4>Crypto++</h4>
 
 Home：[http://www.cryptopp.com/]
-
-Wikipedia：[https://en.wikipedia.org/wiki/Crypto%2B%2B 英文]
 
 它也叫“CryptoPP”或“libcrypto++”，是非常著名的开源加密库，诞生于1995年。基于 C++ 开发，大量用到模板语法。
 
@@ -203,7 +186,7 @@ typedef array_type::index index;
 array_type A(boost::extents[3][4][2]);
 
 int values = 0;
-for(index i=0; i!=3; ++i) 
+for(index i=0; i!=3; ++i)
     for(index j=0; j!=4; ++j)
         for(index k=0; k!=2; ++k)
             A[i][j][k] = values++;
@@ -849,7 +832,7 @@ START_TEST (test_name)
     /* unit test code */
 }
 END_TEST
-/* The "START_TEST/END_TEST" pair are macros that setup basic structures to permit testing. 
+/* The "START_TEST/END_TEST" pair are macros that setup basic structures to permit testing.
    It is a mistake to leave off the END_TEST marker;
    doing so produces all sorts of strange errors when the check is compiled. */
 </source>
@@ -935,7 +918,7 @@ Boost 前面已经介绍过。这是 Boost 的其中一个子库，提供了“�
 &#35;include <iostream>
 &#35;include <boost/thread/thread.hpp>
 
-void hello_world() 
+void hello_world()
 {
     std::cout << "Hello world, I'm a thread!\n";
 }
@@ -2570,7 +2553,7 @@ using boost::property_tree::write_json;
 // Write json
 ptree pt1;
 pt1.put("foo", "bar");
-std::ostringstream oss; 
+std::ostringstream oss;
 write_json(oss, pt1, false);
 std::string json = oss.str(); // {"foo":"bar"}
 
