@@ -4,7 +4,7 @@
 
 本目录放置：面向程序员的开源代码库清单（含示例代码）。
 
-* [/dox/awesome.wiki 闻名遐迩的的awesome库]
+* [/dox/awesome.md 闻名遐迩的的awesome库]
 
 === 编程语言(个人收集) ===
 
