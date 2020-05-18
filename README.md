@@ -36,3 +36,13 @@
 * [Apktool](https://github.com/iBotPeaches/Apktool)
 * [superCleanMaster](https://github.com/joyoyao/superCleanMaster)
 * [ToolWizAppLock](https://github.com/Toolwiz/ToolWizAppLock) Smart App Lock for Android
+
+
+## 未分类，某些人推荐的，仓鼠模式
+* [跨平台SQL客户端] https://github.com/beekeeper-studio/beekeeper-studio
+
+
+## 仓鼠模式的极致
+
+* [阮一峰：互联网上的免费书籍] https://github.com/ruanyf/free-books
+
