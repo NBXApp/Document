@@ -48,3 +48,6 @@
 
 * [阮一峰：互联网上的免费书籍] https://github.com/ruanyf/free-books
 
+
+## 继续仓鼠
+[静态代码] http://fbinfer.com/
